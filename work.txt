@@ -1,0 +1,370 @@
+Script started on 2020-07-31 07:12:46+0000
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# sudo apt [K-get update
+
+
+
+0% [Working]            Ign:1 cdrom://Ubuntu 18.04.4 LTS _Bionic Beaver_ - Release amd64 (20200203.1) bionic InRelease
+0% [Working]            Hit:2 cdrom://Ubuntu 18.04.4 LTS _Bionic Beaver_ - Release amd64 (20200203.1) bionic Release
+0% [Working]0% [Release.gpg gpgv 3,355 B]                             0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Working]0% [Connecting to archive.ubuntu.com] [Connecting to security.ubuntu.com]                                                                         0% [Waiting for headers] [Waiting for headers]                                              Hit:4 http://archive.ubuntu.com/ubuntu bionic InRelease
+0% [Waiting for headers] [Waiting for headers]0% [4 InRelease gpgv 242 kB] [Waiting for headers] [Waiting for headers]                                                                        Get:5 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+0% [4 InRelease gpgv 242 kB] [Waiting for headers] [5 InRelease 3,950 B/88.7 k                                                                              Get:6 http://archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+0% [4 InRelease gpgv 242 kB] [6 InRelease 1,146 B/88.7 kB 1%] [5 InRelease 14.                                                                              0% [6 InRelease 15.5 kB/88.7 kB 18%] [5 InRelease 42.9 kB/88.7 kB 48%]                                                                      0% [6 InRelease 47.2 kB/88.7 kB 53%]0% [5 InRelease gpgv 88.7 kB] [6 InRelease 47.2 kB/88.7 kB 53%]                                                               0% [5 InRelease gpgv 88.7 kB]                             0% [Working]0% [6 InRelease gpgv 88.7 kB] [Waiting for headers]                                                   21% [Waiting for headers]                         Get:7 http://security.ubuntu.com/ubuntu bionic-security/main amd64 Packages [805 kB]
+21% [Waiting for headers] [7 Packages 1,231 B/805 kB 0%]                                                        Get:8 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [1,032 kB]
+22% [8 Packages 6,990 B/1,032 kB 1%] [7 Packages 63.2 kB/805 kB 8%]30% [8 Packages 190 kB/1,032 kB 18%] [7 Packages 222 kB/805 kB 28%]38% [8 Packages 363 kB/1,032 kB 35%] [7 Packages 387 kB/805 kB 48%]46% [8 Packages 543 kB/1,032 kB 53%] [7 Packages 560 kB/805 kB 70%]54% [8 Packages 707 kB/1,032 kB 68%] [7 Packages 723 kB/805 kB 90%]58% [8 Packages 812 kB/1,032 kB 79%]                             96.2 kB/s 17s58% [7 Packages store 0 B] [8 Packages 815 kB/1,032 kB 79%] [Waiting for heade                                                                              Get:9 http://security.ubuntu.com/ubuntu bionic-security/main Translation-en [252 kB]
+60% [7 Packages store 0 B] [8 Packages 887 kB/1,032 kB 86%] [9 Translation-en                                                                               62% [8 Packages 916 kB/1,032 kB 89%] [9 Translation-en 45.9 kB/252 kB 18%]67% [9 Translation-en 147 kB/252 kB 58%]                         96.2 kB/s 13s67% [8 Packages store 0 B] [9 Translation-en 147 kB/252 kB 58%]  96.2 kB/s 13s                                                                              Get:10 http://archive.ubuntu.com/ubuntu bionic-updates/main Translation-en [346 kB]
+68% [8 Packages store 0 B] [10 Translation-en 2,671 B/346 kB 1%] [9 Translatio                                                                              Get:11 http://security.ubuntu.com/ubuntu bionic-security/main amd64 DEP-11 Metadata [46.1 kB]
+71% [8 Packages store 0 B] [10 Translation-en 63.2 kB/346 kB 18%] [11 Componen71% [10 Translation-en 63.2 kB/346 kB 18%] [11 Components-amd64 800 B/46.1 kB 71% [9 Translation-en store 0 B] [10 Translation-en 63.2 kB/346 kB 18%] [11 Co                                                                              Get:12 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 48x48 Icons [25.7 kB]
+73% [9 Translation-en store 0 B] [10 Translation-en 128 kB/346 kB 37%] [12 ico74% [10 Translation-en 128 kB/346 kB 37%] [12 icons-48x48 16.5 kB/25.7 kB 64%]74% [11 Components-amd64 store 0 B] [10 Translation-en 128 kB/346 kB 37%] [12                                                                               74% [11 Components-amd64 store 0 B] [10 Translation-en 128 kB/346 kB 37%]                                                                         Get:13 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 64x64 Icons [58.0 kB]
+74% [11 Components-amd64 store 0 B] [10 Translation-en 128 kB/346 kB 37%] [13                                                                               75% [10 Translation-en 131 kB/346 kB 38%] [13 icons-64x64 3,500 B/58.0 kB 6%]75% [12 icons-48x48 store 0 B] [10 Translation-en 131 kB/346 kB 38%] [13 icons75% [10 Translation-en 131 kB/346 kB 38%] [13 icons-64x64 6,380 B/58.0 kB 11%]                                                                              Get:14 http://security.ubuntu.com/ubuntu bionic-security/restricted amd64 Packages [75.6 kB]
+                                                                              78% [10 Translation-en 193 kB/346 kB 56%] [14 Packages 36 B/75.6 kB 0%]78% [10 Translation-en 193 kB/346 kB 56%] [14 Packages 36 B/75.6 kB 0%]81% [10 Translation-en 265 kB/346 kB 76%]                         96.2 kB/s 7s                                                                              81% [14 Packages store 0 B] [10 Translation-en 265 kB/346 kB 76%]                                                                 Get:15 http://security.ubuntu.com/ubuntu bionic-security/restricted Translation-en [16.5 kB]
+81% [14 Packages store 0 B] [10 Translation-en 271 kB/346 kB 78%] [15 Translat                                                                              82% [14 Packages store 0 B] [10 Translation-en 285 kB/346 kB 82%]83% [10 Translation-en 296 kB/346 kB 86%]                         96.2 kB/s 7s                                                                              83% [15 Translation-en store 0 B] [10 Translation-en 296 kB/346 kB 86%]83% [10 Translation-en 308 kB/346 kB 89%]                         96.2 kB/s 7s84% [Working]                                                     96.2 kB/s 6s84% [10 Translation-en store 0 B]                                 96.2 kB/s 6s                                                                              Get:16 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 DEP-11 Metadata [295 kB]
+                                                                              84% [10 Translation-en store 0 B] [16 Components-amd64 0 B/295 kB 0%]87% [16 Components-amd64 108 kB/295 kB 37%]                       96.2 kB/s 5s90% [16 Components-amd64 264 kB/295 kB 90%]                       96.2 kB/s 3s91% [Working]                                                     96.2 kB/s 3s91% [16 Components-amd64 store 0 B]                               96.2 kB/s 3s                                                                              Get:17 http://archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 48x48 Icons [81.9 kB]
+                                                                              91% [16 Components-amd64 store 0 B] [17 icons-48x48 0 B/81.9 kB 0%]93% [17 icons-48x48 75.5 kB/81.9 kB 92%]                          96.2 kB/s 2s93% [Working]                                                     96.2 kB/s 2s93% [17 icons-48x48 store 0 B]                                    96.2 kB/s 2s93% [Working]                                                     96.2 kB/s 2s                                                                              Get:18 http://archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 64x64 Icons [157 kB]
+93% [18 icons-64x64 0 B/157 kB 0%]                                96.2 kB/s 2s97% [Working]                                                     96.2 kB/s 1s97% [18 icons-64x64 store 0 B]                                    96.2 kB/s 1s                                                                              Get:19 http://archive.ubuntu.com/ubuntu bionic-updates/restricted amd64 Packages [84.8 kB]
+97% [18 icons-64x64 store 0 B] [19 Packages 0 B/84.8 kB 0%]       96.2 kB/s 1s97% [19 Packages 3,612 B/84.8 kB 4%]                              96.2 kB/s 1s99% [Working]                                                     96.2 kB/s 0s99% [19 Packages store 0 B]                                       96.2 kB/s 0s                                                                              Get:20 http://archive.ubuntu.com/ubuntu bionic-updates/restricted Translation-en [18.7 kB]
+99% [19 Packages store 0 B] [20 Translation-en 0 B/18.7 kB 0%]    96.2 kB/s 0s100% [20 Translation-en 16.5 kB/18.7 kB 88%]                      96.2 kB/s 0s100% [Working]                                                    96.2 kB/s 0s100% [20 Translation-en store 0 B]                                96.2 kB/s 0s100% [Working]                                                    96.2 kB/s 0s                                                                              Fetched 3,472 kB in 18s (198 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 16%Reading package lists... 16%Reading package lists... 25%Reading package lists... 25%Reading package lists... 25%Reading package lists... 25%Reading package lists... 25%Reading package lists... 25%Reading package lists... 41%Reading package lists... 41%Reading package lists... 54%Reading package lists... 54%Reading package lists... 56%Reading package lists... 56%Reading package lists... 56%Reading package lists... 56%Reading package lists... 76%Reading package lists... 76%Reading package lists... 92%Reading package lists... 92%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... Done
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# 
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# 
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# 
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# sudo apt-get install inxi
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package inxi
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# sudo apt-get install inxi
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package inxi
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# inxi - Single li[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat/etc/os-release
+bash: cat/etc/os-release: No such file or directory
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# cat/etc/os-release.lsb-[K_release-a.ho stnamectl
+bash: cat/etc/os-release.lsb_release-a.hostnamectl: No such file or directory
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# cat/etc/os-release.lsb_release-a.hosstnamectl[A]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /etc/os-release[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.lsb[K[K[K[K
+NAME="Ubuntu"
+VERSION="18.04.4 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.4 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# uname -a
+Linux ubuntu 5.3.0-28-generic #30~18.04.1-Ubuntu SMP Fri Jan 17 06:14:09 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# lsb_release -a
+No LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.4 LTS
+Release:	18.04
+Codename:	bionic
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# lsbci
+
+Command 'lsbci' not found, did you mean:
+
+  command 'lspci' from deb pciutils
+
+Try: apt install <deb name>
+
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# lsdlk
+
+Command 'lsdlk' not found, did you mean:
+
+  command 'lsblk' from deb util-linux
+
+Try: apt install <deb name>
+
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# cat/[K /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i3-7020U CPU @ 2.30GHz
+stepping	: 9
+cpu MHz		: 2304.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq monitor ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 4608.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# hard[K[K[K[Ksudo[K[K[K[Klsblk
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   1.9G  1 loop /rofs
+loop1    7:1    0  89.1M  1 loop /snap/core/8268
+loop2    7:2    0  54.7M  1 loop /snap/core18/1668
+loop3    7:3    0  44.9M  1 loop /snap/gtk-common-themes/1440
+loop4    7:4    0 160.2M  1 loop /snap/gnome-3-28-1804/116
+loop5    7:5    0   4.2M  1 loop /snap/gnome-calculator/544
+loop6    7:6    0  14.8M  1 loop /snap/gnome-characters/399
+loop7    7:7    0   956K  1 loop /snap/gnome-logs/81
+loop8    7:8    0   3.7M  1 loop /snap/gnome-system-monitor/127
+sda      8:0    0    10G  0 disk 
+└─sda1   8:1    0    10G  0 part 
+sr0     11:0    1     2G  0 rom  /cdrom
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# lscpu
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              1
+On-line CPU(s) list: 0
+Thread(s) per core:  1
+Core(s) per socket:  1
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               142
+Model name:          Intel(R) Core(TM) i3-7020U CPU @ 2.30GHz
+Stepping:            9
+CPU MHz:             2304.000
+BogoMIPS:            4608.00
+Hypervisor vendor:   KVM
+Virtualization type: full
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            256K
+L3 cache:            3072K
+NUMA node0 CPU(s):   0
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq monitor ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# free
+              total        used        free      shared  buff/cache   available
+Mem:        2035520     1022504       90196      646908      922820      216232
+Swap:             0           0           0
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# fin[K[K[Kuname
+Linux
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# um[Kname -r
+5.3.0-28-generic
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# find [Kmnt
+TARGET                                SOURCE     FSTYPE OPTIONS
+/                                     /cow       overla rw,relatime,lowerdir=//
+├─/sys                                sysfs      sysfs  rw,nosuid,nodev,noexec,
+│ ├─/sys/kernel/security              securityfs securi rw,nosuid,nodev,noexec,
+│ ├─/sys/fs/cgroup                    tmpfs      tmpfs  ro,nosuid,nodev,noexec,
+│ │ ├─/sys/fs/cgroup/unified          cgroup     cgroup rw,nosuid,nodev,noexec,
+│ │ ├─/sys/fs/cgroup/systemd          cgroup     cgroup rw,nosuid,nodev,noexec,
+│ │ ├─/sys/fs/cgroup/hugetlb          cgroup     cgroup rw,nosuid,nodev,noexec,
+│ │ ├─/sys/fs/cgroup/net_cls,net_prio cgroup     cgroup rw,nosuid,nodev,noexec,
+│ │ ├─/sys/fs/cgroup/devices          cgroup     cgroup rw,nosuid,nodev,noexec,
+│ │ ├─/sys/fs/cgroup/pids             cgroup     cgroup rw,nosuid,nodev,noexec,
+│ │ ├─/sys/fs/cgroup/perf_event       cgroup     cgroup rw,nosuid,nodev,noexec,
+│ │ ├─/sys/fs/cgroup/cpu,cpuacct      cgroup     cgroup rw,nosuid,nodev,noexec,
+│ │ ├─/sys/fs/cgroup/memory           cgroup     cgroup rw,nosuid,nodev,noexec,
+│ │ ├─/sys/fs/cgroup/rdma             cgroup     cgroup rw,nosuid,nodev,noexec,
+│ │ ├─/sys/fs/cgroup/blkio            cgroup     cgroup rw,nosuid,nodev,noexec,
+│ │ ├─/sys/fs/cgroup/cpuset           cgroup     cgroup rw,nosuid,nodev,noexec,
+│ │ └─/sys/fs/cgroup/freezer          cgroup     cgroup rw,nosuid,nodev,noexec,
+│ ├─/sys/fs/pstore                    pstore     pstore rw,nosuid,nodev,noexec,
+│ ├─/sys/kernel/debug                 debugfs    debugf rw,relatime
+│ ├─/sys/fs/fuse/connections          fusectl    fusect rw,relatime
+│ └─/sys/kernel/config                configfs   config rw,relatime
+├─/proc                               proc       proc   rw,nosuid,nodev,noexec,
+│ └─/proc/sys/fs/binfmt_misc          systemd-1  autofs rw,relatime,fd=37,pgrp=
+├─/dev                                udev       devtmp rw,nosuid,relatime,size
+│ ├─/dev/pts                          devpts     devpts rw,nosuid,noexec,relati
+│ ├─/dev/shm                          tmpfs      tmpfs  rw,nosuid,nodev
+│ ├─/dev/hugepages                    hugetlbfs  hugetl rw,relatime,pagesize=2M
+│ └─/dev/mqueue                       mqueue     mqueue rw,relatime
+├─/run                                tmpfs      tmpfs  rw,nosuid,noexec,relati
+│ ├─/run/lock                         tmpfs      tmpfs  rw,nosuid,nodev,noexec,
+│ ├─/run/user/999                     tmpfs      tmpfs  rw,nosuid,nodev,relatim
+│ │ └─/run/user/999/gvfs              gvfsd-fuse fuse.g rw,nosuid,nodev,relatim
+│ └─/run/user/0                       tmpfs      tmpfs  rw,nosuid,nodev,relatim
+│   └─/run/user/0/gvfs                gvfsd-fuse fuse.g rw,nosuid,nodev,relatim
+├─/cdrom                              /dev/sr0   iso966 ro,noatime,nojoliet,che
+├─/rofs                               /dev/loop0 squash ro,noatime
+├─/snap/gnome-calculator/544          /dev/loop5 squash ro,nodev,relatime
+├─/tmp                                tmpfs      tmpfs  rw,nosuid,nodev,relatim
+├─/snap/gnome-characters/399          /dev/loop6 squash ro,nodev,relatime
+├─/snap/gnome-logs/81                 /dev/loop7 squash ro,nodev,relatime
+├─/snap/gnome-system-monitor/127      /dev/loop8 squash ro,nodev,relatime
+├─/snap/gnome-3-28-1804/116           /dev/loop4 squash ro,nodev,relatime
+├─/snap/core/8268                     /dev/loop1 squash ro,nodev,relatime
+├─/snap/core18/1668                   /dev/loop2 squash ro,nodev,relatime
+└─/snap/gtk-common-themes/1440        /dev/loop3 squash ro,nodev,relatime
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# free -m
+              total        used        free      shared  buff/cache   available
+Mem:           1987         999          84         631         903         209
+Swap:             0           0           0
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# cat /proc/meminfo
+MemTotal:        2035520 kB
+MemFree:           85920 kB
+MemAvailable:     214528 kB
+Buffers:           42104 kB
+Cached:           846712 kB
+SwapCached:            0 kB
+Active:          1156884 kB
+Inactive:         636080 kB
+Active(anon):    1027876 kB
+Inactive(anon):   523184 kB
+Active(file):     129008 kB
+Inactive(file):   112896 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:        904188 kB
+Mapped:           148328 kB
+Shmem:            646912 kB
+KReclaimable:      36548 kB
+Slab:              72808 kB
+SReclaimable:      36548 kB
+SUnreclaim:        36260 kB
+KernelStack:        8524 kB
+PageTables:        34752 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1017760 kB
+Committed_AS:    4566724 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       32436 kB
+VmallocChunk:          0 kB
+Percpu:              336 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      120768 kB
+DirectMap2M:     1976320 kB
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# nao[Kno OS.pdf[K[K[Ksh
+[?1049h[22;0;0t[1;28r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39m(B[m[H[2J[26;34H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                        OS.sh                                  [1;78H(B[m[27d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[28d(B[0;7m^X(B[m Exit[28;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter[26d[3d[39m(B[m[?12l[?25h[?25l[1;78H[26;32H(B[0;7m[ Wrote 0 lines ](B[m[3d[?12l[?25h[?25l[26d[J[28;79H[?12l[?25h[28;1H[?1049l[23;0;0t[?1l>]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# chmod +xx[K[K[K+x OS.sh
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# ls
+[0m[01;32mOS.sh[0m  work.txt
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# nano OS.sh
+[?1049h[22;0;0t[1;28r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39m(B[m[H[2J[26;32H(B[0;7m[ Reading File ](B[m[26;38H(B[0;7m 0 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                        OS.sh                                  [1;78H(B[m[27d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[28d(B[0;7m^X(B[m Exit[28;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter[26d[3d[39m(B[m[?12l[?25h[?25l[1;70H(B[0;7mModified(B[m[3d[36m#[39m(B[m[?12l[?25h[?25l[36m![39m(B[m[?12l[?25h[?25l[36m/[39m(B[m[?12l[?25h[?25l[36mb[39m(B[m[?12l[?25h[?25l[36mi[39m(B[m[?12l[?25h[?25l[36mn[39m(B[m[?12l[?25h[?25l[36m/[39m(B[m[?12l[?25h[?25l[36ms[39m(B[m[?12l[?25h[?25l[36mh[39m(B[m[?12l[?25h[?25l[4d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25lO[?12l[?25h[?25lS[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l d[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25ls[26d[K[4;17H[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[32m:[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m$[39m(B[m[?12l[?25h[?25l[32m([39m(B[m[?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25l(B[0;1m[34mcat[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l /[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25lc[?12l[?25h[?25l/[?12l[?25h[?25lo[?12l[?25h[?25ls[?12l[?25h[?25l-[?12l[?25h[?25l[32m-r[39m(B[m[?12l[?25h[?25l-re[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25l[32m)[39m(B[m[?12l[?25h[?25l'[?12l[?25h[?25l [?12l[?25h[?25l[6G(B[0;1m[33m"OS details: $(cat /etc/os-release)"[39m(B[m[?12l[?25h[?25l[5d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25lA[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l a[?12l[?25h[?25lv[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25la[?12l[?25h[?25lb[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l s[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25l[32m:[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m$[39m(B[m[?12l[?25h[?25l[32m([39m(B[m[?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25l(B[0;1m[34mcat[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l /[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25lc[?12l[?25h[?25l/[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25l[32m)[39m(B[m[?12l[?25h[?25l[6G(B[0;1m[33m"All available shells: $(cat /etc/shells)"[39m(B[m[?12l[?25h[?25l[6d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25lC[?12l[?25h[?25lP[?12l[?25h[?25lU[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l i[?12l[?25h[?25l[32min[39m(B[m[?12l[?25h[?25linf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25l [?12l[?25h[?25ln[?12l[?25h[?25l[32m:[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m$[39m(B[m[?12l[?25h[?25l[32m([39m(B[m[?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25lc[?12l[?25h[?25lp[?12l[?25h[?25lu[?12l[?25h[?25l[32m)[39m(B[m[?12l[?25h[?25l[6G(B[0;1m[33m"CPU information: $(lscpu)"[39m(B[m[?12l[?25h[?25l[7d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25lM[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25ly[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l i[?12l[?25h[?25l[32min[39m(B[m[?12l[?25h[?25linf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l[32m:[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m$[39m(B[m[?12l[?25h[?25l[32m([39m(B[m[?12l[?25h[?25lf[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25lm[?12l[?25h[?25l[32m)[39m(B[m[?12l[?25h[?25l[6G(B[0;1m[33m"Memory information: $(free -m)"[39m(B[m[?12l[?25h[?25l[8d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25lH[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25ld[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l d[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25lk[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l i[?12l[?25h[?25l[32min[39m(B[m[?12l[?25h[?25linf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l[32m:[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m$[39m(B[m[?12l[?25h[?25l[32m([39m(B[m[?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25lb[?12l[?25h[?25ll[?12l[?25h[?25lk[?12l[?25h[?25l[32m)[39m(B[m[?12l[?25h[?25l[6G(B[0;1m[33m"Hard disk information: $(lsblk)"[39m(B[m[?12l[?25h[?25l[9d[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25lF[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l S[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l[32m:[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m&[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [32m$[39m(B[m[?12l[?25h[?25l[32m([39m(B[m[?12l[?25h[?25lf[?12l[?25h[?25l[32mfi[39m(B[m[?12l[?25h[?25lfin[?12l[?25h[?25ld[?12l[?25h[?25lm[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l[32m([39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[32m)[39m(B[m[?12l[?25h[?25l'[?12l[?25h[?25l [?12l[?25h[?25l[6G(B[0;1m[33m"File System: $(findmnt)"[39m(B[m[?12l[?25h[?25l[1;78H[1;70H(B[0;7m        (B[m[26;32H(B[0;7m[ Wrote 7 lines ](B[m[9;31H[?12l[?25h[?25l[26d[J[28;79H[?12l[?25h[28;1H[?1049l[23;0;0t[?1l>]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# sh OS.sh
+OS details: NAME="Ubuntu"
+VERSION="18.04.4 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.4 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+All available shells: # /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/bin/rbash
+/bin/dash
+CPU information: Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              1
+On-line CPU(s) list: 0
+Thread(s) per core:  1
+Core(s) per socket:  1
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               142
+Model name:          Intel(R) Core(TM) i3-7020U CPU @ 2.30GHz
+Stepping:            9
+CPU MHz:             2304.000
+BogoMIPS:            4608.00
+Hypervisor vendor:   KVM
+Virtualization type: full
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            256K
+L3 cache:            3072K
+NUMA node0 CPU(s):   0
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq monitor ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d
+Memory information:               total        used        free      shared  buff/cache   available
+Mem:           1987        1003          77         631         906         205
+Swap:             0           0           0
+Hard disk information: NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   1.9G  1 loop /rofs
+loop1    7:1    0  89.1M  1 loop /snap/core/8268
+loop2    7:2    0  54.7M  1 loop /snap/core18/1668
+loop3    7:3    0  44.9M  1 loop /snap/gtk-common-themes/1440
+loop4    7:4    0 160.2M  1 loop /snap/gnome-3-28-1804/116
+loop5    7:5    0   4.2M  1 loop /snap/gnome-calculator/544
+loop6    7:6    0  14.8M  1 loop /snap/gnome-characters/399
+loop7    7:7    0   956K  1 loop /snap/gnome-logs/81
+loop8    7:8    0   3.7M  1 loop /snap/gnome-system-monitor/127
+sda      8:0    0    10G  0 disk 
+└─sda1   8:1    0    10G  0 part 
+sr0     11:0    1     2G  0 rom  /cdrom
+File System: TARGET                                SOURCE     FSTYPE          OPTIONS
+/                                     /cow       overlay         rw,relatime,lowerdir=//filesystem.squashfs,upperdir=/cow/upper,workdir=/cow/work
+├─/sys                                sysfs      sysfs           rw,nosuid,nodev,noexec,relatime
+│ ├─/sys/kernel/security              securityfs securityfs      rw,nosuid,nodev,noexec,relatime
+│ ├─/sys/fs/cgroup                    tmpfs      tmpfs           ro,nosuid,nodev,noexec,mode=755
+│ │ ├─/sys/fs/cgroup/unified          cgroup     cgroup2         rw,nosuid,nodev,noexec,relatime,nsdelegate
+│ │ ├─/sys/fs/cgroup/systemd          cgroup     cgroup          rw,nosuid,nodev,noexec,relatime,xattr,name=systemd
+│ │ ├─/sys/fs/cgroup/hugetlb          cgroup     cgroup          rw,nosuid,nodev,noexec,relatime,hugetlb
+│ │ ├─/sys/fs/cgroup/net_cls,net_prio cgroup     cgroup          rw,nosuid,nodev,noexec,relatime,net_cls,net_prio
+│ │ ├─/sys/fs/cgroup/devices          cgroup     cgroup          rw,nosuid,nodev,noexec,relatime,devices
+│ │ ├─/sys/fs/cgroup/pids             cgroup     cgroup          rw,nosuid,nodev,noexec,relatime,pids
+│ │ ├─/sys/fs/cgroup/perf_event       cgroup     cgroup          rw,nosuid,nodev,noexec,relatime,perf_event
+│ │ ├─/sys/fs/cgroup/cpu,cpuacct      cgroup     cgroup          rw,nosuid,nodev,noexec,relatime,cpu,cpuacct
+│ │ ├─/sys/fs/cgroup/memory           cgroup     cgroup          rw,nosuid,nodev,noexec,relatime,memory
+│ │ ├─/sys/fs/cgroup/rdma             cgroup     cgroup          rw,nosuid,nodev,noexec,relatime,rdma
+│ │ ├─/sys/fs/cgroup/blkio            cgroup     cgroup          rw,nosuid,nodev,noexec,relatime,blkio
+│ │ ├─/sys/fs/cgroup/cpuset           cgroup     cgroup          rw,nosuid,nodev,noexec,relatime,cpuset
+│ │ └─/sys/fs/cgroup/freezer          cgroup     cgroup          rw,nosuid,nodev,noexec,relatime,freezer
+│ ├─/sys/fs/pstore                    pstore     pstore          rw,nosuid,nodev,noexec,relatime
+│ ├─/sys/kernel/debug                 debugfs    debugfs         rw,relatime
+│ ├─/sys/fs/fuse/connections          fusectl    fusectl         rw,relatime
+│ └─/sys/kernel/config                configfs   configfs        rw,relatime
+├─/proc                               proc       proc            rw,nosuid,nodev,noexec,relatime
+│ └─/proc/sys/fs/binfmt_misc          systemd-1  autofs          rw,relatime,fd=37,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=14756
+├─/dev                                udev       devtmpfs        rw,nosuid,relatime,size=992184k,nr_inodes=248046,mode=755
+│ ├─/dev/pts                          devpts     devpts          rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000
+│ ├─/dev/shm                          tmpfs      tmpfs           rw,nosuid,nodev
+│ ├─/dev/hugepages                    hugetlbfs  hugetlbfs       rw,relatime,pagesize=2M
+│ └─/dev/mqueue                       mqueue     mqueue          rw,relatime
+├─/run                                tmpfs      tmpfs           rw,nosuid,noexec,relatime,size=203552k,mode=755
+│ ├─/run/lock                         tmpfs      tmpfs           rw,nosuid,nodev,noexec,relatime,size=5120k
+│ ├─/run/user/999                     tmpfs      tmpfs           rw,nosuid,nodev,relatime,size=203552k,mode=700,uid=999,gid=999
+│ │ └─/run/user/999/gvfs              gvfsd-fuse fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=999,group_id=999
+│ └─/run/user/0                       tmpfs      tmpfs           rw,nosuid,nodev,relatime,size=203552k,mode=700
+│   └─/run/user/0/gvfs                gvfsd-fuse fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=0,group_id=0
+├─/cdrom                              /dev/sr0   iso9660         ro,noatime,nojoliet,check=s,map=n,blocksize=2048
+├─/rofs                               /dev/loop0 squashfs        ro,noatime
+├─/snap/gnome-calculator/544          /dev/loop5 squashfs        ro,nodev,relatime
+├─/tmp                                tmpfs      tmpfs           rw,nosuid,nodev,relatime
+├─/snap/gnome-characters/399          /dev/loop6 squashfs        ro,nodev,relatime
+├─/snap/gnome-logs/81                 /dev/loop7 squashfs        ro,nodev,relatime
+├─/snap/gnome-system-monitor/127      /dev/loop8 squashfs        ro,nodev,relatime
+├─/snap/gnome-3-28-1804/116           /dev/loop4 squashfs        ro,nodev,relatime
+├─/snap/core/8268                     /dev/loop1 squashfs        ro,nodev,relatime
+├─/snap/core18/1668                   /dev/loop2 squashfs        ro,nodev,relatime
+└─/snap/gtk-common-themes/1440        /dev/loop3 squashfs        ro,nodev,relatime
+]0;root@ubuntu: /home/ubuntu/gopika/call/foss5root@ubuntu:/home/ubuntu/gopika/call/foss5# exit
+exit
+
+Script done on 2020-07-31 07:48:02+0000
